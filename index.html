@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="utf-8" /&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;</p>
+<p class="p1">&lt;title&gt;College Student Election 2025 - Fingerprint Edition&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body{font-family:Arial,Helvetica,sans-serif;margin:0;background:linear-gradient(90deg,#e6f2ff,#f7f7ff);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>header{background:#0a3d62;color:#fff;padding:14px;text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>nav{padding:10px;text-align:center;background:#1e90ff;position:relative}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>nav button{margin:6px;padding:8px 14px;border-radius:8px;border:0;cursor:pointer;position:relative}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.dot{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>position:absolute;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>top:4px;right:4px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>width:10px;height:10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>background:red;border-radius:50%;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>display:none;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>section{display:none;padding:18px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.card{max-width:760px;margin:12px auto;background:#fff;padding:18px;border-radius:10px;box-shadow:0 4px 18px rgba(0,0,0,.08)}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>input,button{font:inherit}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>input[type=text], input[type=password]{width:100%;padding:8px;margin:8px 0;border:1px solid #ccc;border-radius:6px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.message{font-weight:700;margin-top:8px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.bar{height:18px;background:#0a3d62;border-radius:6px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.barContainer{background:#e6e6e6;border-radius:6px;padding:4px;margin:8px 0}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>table{width:100%;border-collapse:collapse}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>th,td{border:1px solid #ddd;padding:8px;text-align:center}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>th{background:#0a3d62;color:white}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#notifications div{background:#f0f8ff;border-left:5px solid #0a3d62;margin:8px 0;padding:10px;border-radius:6px}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1">&lt;header&gt;&lt;h1&gt;College Student Election 2025 - Fingerprint Login&lt;/h1&gt;&lt;/header&gt;</p>
+<p class="p1">&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button id="homeBtn" onclick="show('home')"&gt;Home&lt;span class="dot" id="notifDot"&gt;&lt;/span&gt;&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button onclick="show('register')"&gt;Register&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button onclick="show('login')"&gt;Voter Login&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button onclick="show('admin')"&gt;Admin&lt;/button&gt;</p>
+<p class="p1">&lt;/nav&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="home" class="card" style="display:block"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Welcome&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;Open Register to create a voter with fingerprint (only once per device). Use admin/admin to approve.&lt;/p&gt;</p>
+<p class="p2"><span class="Apple-converted-space">  </span></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h3&gt;📢 Notifications&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="notifications"&gt;&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h3&gt;Live Results&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="results"&gt;&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="register" class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Voter Registration (Fingerprint Only)&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;form id="registerForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Roll number&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input id="regRoll" type="text" placeholder="24A55A0501" required /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button type="button" onclick="registerFingerprint()"&gt;🔒 Register Fingerprint&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p id="fingerMsg" class="message"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/form&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="login" class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Voter Login (Fingerprint)&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;form id="loginForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Roll&lt;/label&gt;&lt;input id="loginRoll" type="text" required /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button type="button" onclick="loginFingerprint()"&gt;🔓 Login with Fingerprint&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p id="loginMsg" class="message"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="voteArea" style="display:none"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h3&gt;Cast Vote&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="voteButtons"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="logout()"&gt;Logout&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;section id="admin" class="card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;Admin&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="adminLoginBox"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;form id="adminLoginForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;Username&lt;/label&gt;&lt;input id="adminUser" type="text" required /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;Password&lt;/label&gt;&lt;input id="adminPass" type="password" required /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="submit" value="Login" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p id="adminMsg" class="message"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div id="adminPanel" style="display:none"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="showPending()"&gt;Pending Voters&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="showAdminResults()"&gt;Show Results&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="showNotificationPanel()"&gt;Manage Notifications&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="resetElection()"&gt;Reset Election&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="adminContent" style="margin-top:12px"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;button onclick="adminLogout()"&gt;Logout&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">function storageGet(k,f){try{const d=localStorage.getItem(k);return d?JSON.parse(d):f;}catch(e){return f;}}</p>
+<p class="p1">function storageSet(k,v){localStorage.setItem(k,JSON.stringify(v));}</p>
+<p class="p2"><br></p>
+<p class="p1">if(!localStorage.getItem('candidates'))storageSet('candidates',{"Jayaprakash":0,"Vijay Manohar":0,"Priyaharsha":0,"Mercy Sukeerthi":0});</p>
+<p class="p1">if(!localStorage.getItem('voters'))storageSet('voters',{});</p>
+<p class="p1">if(!localStorage.getItem('notifications'))storageSet('notifications',[]);</p>
+<p class="p1">if(!localStorage.getItem('notifSeen'))storageSet('notifSeen',false);</p>
+<p class="p2"><br></p>
+<p class="p1">function show(id){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.querySelectorAll('section').forEach(s=&gt;s.style.display='none');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById(id).style.display='block';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(id==='home'){renderResults();renderNotifications();markNotifSeen();}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(id!=='login'){logout();}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">async function registerFingerprint(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const roll=document.getElementById('regRoll').value.trim();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const msg=document.getElementById('fingerMsg');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const voters=storageGet('voters',{});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(!roll){msg.style.color='red';msg.textContent='Enter roll number.';return;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(voters[roll]){msg.style.color='red';msg.textContent='Roll already registered.';return;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const deviceKey=localStorage.getItem('deviceFingerprint');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(deviceKey){msg.style.color='red';msg.textContent='This device is already registered for another voter.';return;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>try{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const pk={challenge:new Uint8Array(32),rp:{name:"College Election 2025"},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>user:{id:new Uint8Array(16),name:roll,displayName:roll},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>pubKeyCredParams:[{alg:-7,type:"public-key"}],</p>
+<p class="p1"><span class="Apple-converted-space">      </span>authenticatorSelection:{userVerification:"preferred"}};</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const credential=await navigator.credentials.create({publicKey:pk});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(!credential)throw new Error('Fingerprint not captured');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const credId=btoa(String.fromCharCode(...new Uint8Array(credential.rawId)));</p>
+<p class="p1"><span class="Apple-converted-space">    </span>voters[roll]={approved:false,voted:false,credId};</p>
+<p class="p1"><span class="Apple-converted-space">    </span>storageSet('voters',voters);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>localStorage.setItem('deviceFingerprint',credId);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>msg.style.color='green';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>msg.textContent='✅ Fingerprint registered successfully. Await admin approval.';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}catch(e){msg.style.color='red';msg.textContent='Fingerprint registration failed or cancelled.';}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">async function loginFingerprint(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const roll=document.getElementById('loginRoll').value.trim();</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const msg=document.getElementById('loginMsg');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const voters=storageGet('voters',{});</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(!roll||!voters[roll]){msg.style.color='red';msg.textContent='Voter not found';return;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(!voters[roll].approved){msg.style.color='red';msg.textContent='Not approved yet';return;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>try{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const pk={challenge:new Uint8Array(32),</p>
+<p class="p1"><span class="Apple-converted-space">      </span>allowCredentials:[{type:"public-key",id:Uint8Array.from(atob(voters[roll].credId),c=&gt;c.charCodeAt(0))}],</p>
+<p class="p1"><span class="Apple-converted-space">      </span>userVerification:"preferred"};</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const assertion=await navigator.credentials.get({publicKey:pk});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(!assertion)throw new Error('Fingerprint verification failed');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const deviceKey=localStorage.getItem('deviceFingerprint');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(deviceKey!==voters[roll].credId){msg.style.color='red';msg.textContent='Fingerprint mismatch. Use same device.';return;}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>msg.textContent='';document.getElementById('loginForm').style.display='none';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>document.getElementById('voteArea').style.display='block';buildVoteButtons(roll);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}catch(e){msg.style.color='red';msg.textContent='Fingerprint login failed or cancelled.';}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function buildVoteButtons(roll){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const candidates=storageGet('candidates',{}),c=document.getElementById('voteButtons');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>c.innerHTML='';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>for(const n of Object.keys(candidates)){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const b=document.createElement('button');b.textContent=n;b.style.display='block';b.style.margin='6px 0';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>b.onclick=()=&gt;castVote(roll,n);c.appendChild(b);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function castVote(roll,cand){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const voters=storageGet('voters',{});if(voters[roll].voted){alert('You already voted');return;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>voters[roll].voted=true;storageSet('voters',voters);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const cands=storageGet('candidates',{});cands[cand]=(cands[cand]||0)+1;storageSet('candidates',cands);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const area=document.getElementById('voteArea');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>area.innerHTML=`&lt;h3 style="color:green;text-align:center;"&gt;✅ Thank you for voting for &lt;span style="color:#0a3d62"&gt;${cand}&lt;/span&gt;!&lt;/h3&gt;&lt;p style="text-align:center;"&gt;Redirecting to home...&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>setTimeout(()=&gt;{logout();show('home');renderResults();},2500);</p>
+<p class="p1">}</p>
+<p class="p1">function logout(){document.getElementById('loginForm').reset();document.getElementById('loginForm').style.display='block';document.getElementById('voteArea').style.display='none';}</p>
+<p class="p2"><br></p>
+<p class="p1">document.getElementById('adminLoginForm').addEventListener('submit',e=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>e.preventDefault();const u=adminUser.value.trim(),p=adminPass.value.trim(),m=adminMsg;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(u==='admin'&amp;&amp;p==='admin'){m.textContent='';adminLoginBox.style.display='none';adminPanel.style.display='block';showPending();}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>else{m.style.color='red';m.textContent='Invalid credentials (use admin/admin)';}</p>
+<p class="p1">});</p>
+<p class="p2"><br></p>
+<p class="p1">function showPending(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const v=storageGet('voters',{}),c=adminContent;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>c.innerHTML='&lt;h3&gt;Pending Voters&lt;/h3&gt;';const t=document.createElement('table');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>t.innerHTML='&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Roll&lt;/th&gt;&lt;th&gt;Approved&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;';const b=document.createElement('tbody');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>for(const [r,i]of Object.entries(v)){const tr=document.createElement('tr');tr.innerHTML=`&lt;td&gt;${r}&lt;/td&gt;&lt;td&gt;${i.approved?'✅':'⏳'}&lt;/td&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const td=document.createElement('td');if(!i.approved){const a=document.createElement('button');a.textContent='Approve';a.onclick=()=&gt;{i.approved=true;storageSet('voters',v);showPending();};</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const d=document.createElement('button');d.textContent='Reject';d.style.marginLeft='6px';d.onclick=()=&gt;{delete v[r];storageSet('voters',v);showPending();};</p>
+<p class="p1"><span class="Apple-converted-space">      </span>td.appendChild(a);td.appendChild(d);}else td.textContent='-';tr.appendChild(td);b.appendChild(tr);}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>t.appendChild(b);c.appendChild(t);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function showAdminResults(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const c=storageGet('candidates',{}),con=adminContent;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>con.innerHTML='&lt;h3&gt;Vote Counts&lt;/h3&gt;';const t=document.createElement('table');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>t.innerHTML='&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Candidate&lt;/th&gt;&lt;th&gt;Votes&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;';const b=document.createElement('tbody');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>for(const[n,v]of Object.entries(c)){b.innerHTML+=`&lt;tr&gt;&lt;td&gt;${n}&lt;/td&gt;&lt;td&gt;${v}&lt;/td&gt;&lt;/tr&gt;`;}t.appendChild(b);con.appendChild(t);</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function showNotificationPanel(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const c=adminContent;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const notes=storageGet('notifications',[]);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>c.innerHTML='&lt;h3&gt;Manage Notifications&lt;/h3&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const ta=document.createElement('textarea');ta.style.width='100%';ta.style.height='80px';ta.placeholder='Enter new notification...';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btn=document.createElement('button');btn.textContent='Post Notification';btn.onclick=()=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const msg=ta.value.trim();if(!msg)return alert('Enter message');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>notes.unshift({msg,time:new Date().toLocaleString()});storageSet('notifications',notes);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>storageSet('notifSeen',false);renderNotifications();showDot();alert('Notification posted!');ta.value='';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>};</p>
+<p class="p1"><span class="Apple-converted-space">  </span>c.appendChild(ta);c.appendChild(btn);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(notes.length){const list=document.createElement('div');list.innerHTML='&lt;h4&gt;Existing Notifications&lt;/h4&gt;';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>notes.forEach((n,i)=&gt;{</p>
+<p class="p1"><span class="Apple-converted-space">      </span>const d=document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">      </span>d.innerHTML=`&lt;div style="border:1px solid #ccc;margin:5px 0;padding:6px;border-radius:6px;"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;strong&gt;${n.time}&lt;/strong&gt;&lt;br&gt;${n.msg}&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;button onclick="deleteNotification(${i})"&gt;Delete&lt;/button&gt;&lt;/div&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>list.appendChild(d);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>c.appendChild(list);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+<p class="p1">function deleteNotification(index){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const notes=storageGet('notifications',[]);notes.splice(index,1);storageSet('notifications',notes);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>alert('Notification deleted!');showNotificationPanel();renderNotifications();</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">function renderNotifications(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const notes=storageGet('notifications',[]),d=document.getElementById('notifications');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(!notes.length){d.innerHTML='&lt;p&gt;No notifications yet.&lt;/p&gt;';return;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>d.innerHTML=notes.map(n=&gt;`&lt;div&gt;&lt;strong&gt;${n.time}&lt;/strong&gt;&lt;br&gt;${n.msg}&lt;/div&gt;`).join('');</p>
+<p class="p1">}</p>
+<p class="p1">function showDot(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const dot=document.getElementById('notifDot');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const seen=storageGet('notifSeen',true);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>if(!seen)dot.style.display='inline-block';else dot.style.display='none';</p>
+<p class="p1">}</p>
+<p class="p1">function markNotifSeen(){storageSet('notifSeen',true);showDot();}</p>
+<p class="p2"><br></p>
+<p class="p1">function adminLogout(){adminPanel.style.display='none';adminLoginBox.style.display='block';adminLoginForm.reset();}</p>
+<p class="p1">function resetElection(){if(confirm('Reset all data?')){localStorage.clear();location.reload();}}</p>
+<p class="p2"><br></p>
+<p class="p1">function renderResults(){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const c=storageGet('candidates',{}),t=Object.values(c).reduce((a,b)=&gt;a+b,0);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>let h='';for(const[n,v]of Object.entries(c)){const p=t?((v/t)*100).toFixed(1):0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>h+=`&lt;div&gt;&lt;strong&gt;${n}&lt;/strong&gt; — ${v} votes (${p}%)&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="barContainer"&gt;&lt;div class="bar" style="width:${p}%"&gt;&lt;/div&gt;&lt;/div&gt;`;}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>results.innerHTML=h;</p>
+<p class="p1">}</p>
+<p class="p1">renderResults();renderNotifications();showDot();</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
